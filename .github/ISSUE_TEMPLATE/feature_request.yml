@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose an improvement to RPGFit
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the training or product need before describing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should a user be able to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Possible approach
+      description: Optional interaction, data-model, or technical ideas.
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Does this change stored or shared data?
+      options:
+        - "No"
+        - Local save data
+        - Apple Health
+        - iCloud backup
+        - Widget or Live Activity data
+        - Unsure
+    validations:
+      required: true
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Product fit
+      options:
+        - label: The feature keeps progression earn-only and training-driven.
+          required: true
+        - label: The feature can respect RPGFit's no-account, no-tracking model.
+          required: true

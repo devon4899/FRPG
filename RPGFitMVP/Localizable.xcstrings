@@ -1,0 +1,1461 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    " " : {
+
+    },
+    "—" : {
+
+    },
+    "·" : {
+
+    },
+    "· %lld felled" : {
+
+    },
+    "@%@" : {
+
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %lld training days" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$lld training days"
+          }
+        }
+      }
+    },
+    "%@ · %lld training days · %lld to %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$lld training days · %3$lld to %4$@"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ %@, %@ rank" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@, %3$@ rank"
+          }
+        }
+      }
+    },
+    "%@ Chest" : {
+
+    },
+    "%@ Chest Earned!" : {
+
+    },
+    "%@ hatched. %@ Double tap to continue." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ hatched. %2$@ Double tap to continue."
+          }
+        }
+      }
+    },
+    "%@ plus %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ plus %2$@"
+          }
+        }
+      }
+    },
+    "%@ rank" : {
+
+    },
+    "%@ slot, empty: %@. Double tap to open the Satchel." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ slot, empty: %2$@. Double tap to open the Satchel."
+          }
+        }
+      }
+    },
+    "%@ treasure chest" : {
+
+    },
+    "%@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@ bond" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@ bond"
+          }
+        }
+      }
+    },
+    "%@, set %lld, repetitions" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, set %2$lld, repetitions"
+          }
+        }
+      }
+    },
+    "%@, set %lld, weight" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, set %2$lld, weight"
+          }
+        }
+      }
+    },
+    "%@: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@"
+          }
+        }
+      }
+    },
+    "%@: %@ equipped, might %lld. Double tap to unequip." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@ equipped, might %3$lld. Double tap to unequip."
+          }
+        }
+      }
+    },
+    "%@: %lld sets this week" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$lld sets this week"
+          }
+        }
+      }
+    },
+    "%@. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@. %2$@"
+          }
+        }
+      }
+    },
+    "%@. %@, %@. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@. %2$@, %3$@. %4$@"
+          }
+        }
+      }
+    },
+    "%@. Campaign Map" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld / %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld / %lld XP" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld XP"
+          }
+        }
+      }
+    },
+    "%lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld coins" : {
+
+    },
+    "%lld exercises · %lld sets" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld exercises · %2$lld sets"
+          }
+        }
+      }
+    },
+    "%lld of %lld experience points. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld experience points. %3$@"
+          }
+        }
+      }
+    },
+    "%lld open" : {
+
+    },
+    "%lld percent" : {
+
+    },
+    "%lld reps" : {
+
+    },
+    "%lld seconds remaining" : {
+
+    },
+    "%lld set%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld set%2$@"
+          }
+        }
+      }
+    },
+    "%lld streak freezes" : {
+
+    },
+    "%lld workout%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld workout%2$@"
+          }
+        }
+      }
+    },
+    "%lld workout%@ all time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld workout%2$@ all time"
+          }
+        }
+      }
+    },
+    "%lld workouts" : {
+
+    },
+    "%lld XP" : {
+
+    },
+    "%lld-day streak" : {
+
+    },
+    "%lld%%" : {
+
+    },
+    "%lldm" : {
+
+    },
+    "%llds" : {
+
+    },
+    "← Swipe to browse chests →" : {
+
+    },
+    "+%@" : {
+
+    },
+    "+%lld XP" : {
+
+    },
+    "+%lld%% from gear" : {
+
+    },
+    "+10% Might" : {
+
+    },
+    "+10% Trial Might when training these" : {
+
+    },
+    "+30s" : {
+
+    },
+    "×%lld" : {
+
+    },
+    "≈%lld XP" : {
+
+    },
+    "0" : {
+
+    },
+    "1" : {
+
+    },
+    "1-day streak" : {
+
+    },
+    "8" : {
+
+    },
+    "100" : {
+
+    },
+    "A chest waits in your Satchel" : {
+
+    },
+    "A new spirit joins your journey!" : {
+
+    },
+    "About XP" : {
+
+    },
+    "Add 30 seconds to rest timer" : {
+
+    },
+    "Add exercise" : {
+
+    },
+    "Add Exercise" : {
+
+    },
+    "Add set" : {
+
+    },
+    "Add your first exercise" : {
+
+    },
+    "All Types" : {
+
+    },
+    "Almost There!" : {
+
+    },
+    "An egg is hatching" : {
+
+    },
+    "Attribute Ranks" : {
+
+    },
+    "Attributes, XP, and quest credit follow the movement it counts as. Records stay separate." : {
+
+    },
+    "Back" : {
+
+    },
+    "Back Up Now" : {
+
+    },
+    "Back up your character to your private iCloud using CloudKit encrypted storage. Nothing syncs automatically — iCloud is contacted only when you choose a backup action." : {
+
+    },
+    "Bar" : {
+
+    },
+    "Bar %@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bar %1$@ %2$@"
+          }
+        }
+      }
+    },
+    "Based on your goals, you are a..." : {
+
+    },
+    "Begin training session" : {
+
+    },
+    "Begins the Trial battle" : {
+
+    },
+    "Behaves like" : {
+
+    },
+    "best %lld XP" : {
+
+    },
+    "Best est. 1RM %@" : {
+
+    },
+    "Beyond the crown, the beasts return — older, patient, tougher. The mountain has no summit, only higher camps." : {
+
+    },
+    "Bodyweight" : {
+
+    },
+    "Buy" : {
+
+    },
+    "Buy %@" : {
+
+    },
+    "Buy a Freeze" : {
+
+    },
+    "By Date" : {
+
+    },
+    "By Rarity" : {
+
+    },
+    "Campaign" : {
+
+    },
+    "Campaign Map" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Catch-up bonus applied" : {
+
+    },
+    "Category: %@" : {
+
+    },
+    "Challenge Completed!" : {
+
+    },
+    "Challenge Settings" : {
+
+    },
+    "Change Class" : {
+
+    },
+    "Change Class?" : {
+
+    },
+    "Changes your class" : {
+
+    },
+    "Changing your class will reset your current quest progress but keep the quest timers. Are you sure you want to continue?" : {
+
+    },
+    "Character" : {
+
+    },
+    "Check your input" : {
+
+    },
+    "Chest pile, %lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Chest pile, %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Chests" : {
+
+    },
+    "Choose 2 fitness goals to find your perfect class" : {
+
+    },
+    "Choose a movement" : {
+
+    },
+    "Choose your class" : {
+
+    },
+    "Choose Your Class" : {
+
+    },
+    "Class Placement" : {
+
+    },
+    "Class: %@" : {
+      "comment" : "A button that lets the user change their class.",
+      "isCommentAutoGenerated" : true
+    },
+    "Clear" : {
+
+    },
+    "Clear filters" : {
+
+    },
+    "Close" : {
+
+    },
+    "Close item details" : {
+
+    },
+    "Close session" : {
+
+    },
+    "Closest below: %@ %@ — short %@ total" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Closest below: %1$@ %2$@ — short %3$@ total"
+          }
+        }
+      }
+    },
+    "Collapsed" : {
+      "comment" : "A label describing the expanded state of a button.",
+      "isCommentAutoGenerated" : true
+    },
+    "Common→Rare" : {
+
+    },
+    "Companion options" : {
+
+    },
+    "Companion Shop" : {
+
+    },
+    "Complete Set" : {
+
+    },
+    "Complete set %lld" : {
+
+    },
+    "Complete Training" : {
+
+    },
+    "Completed" : {
+
+    },
+    "COMPLETED" : {
+
+    },
+    "Confirm" : {
+
+    },
+    "Continue" : {
+
+    },
+    "Costs 250 coins" : {
+
+    },
+    "Counts as" : {
+
+    },
+    "Create" : {
+
+    },
+    "Create a custom exercise" : {
+
+    },
+    "Custom Name" : {
+
+    },
+    "Dark" : {
+      "comment" : "A label for a section of the RPG Symbol Matrix view that displays icons in a dark color scheme.",
+      "isCommentAutoGenerated" : true
+    },
+    "Date" : {
+
+    },
+    "Debug" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Delete %@?" : {
+
+    },
+    "Delete Exercise" : {
+
+    },
+    "Delete From This Device" : {
+
+    },
+    "Delete iCloud Backup" : {
+
+    },
+    "Delete iCloud backup?" : {
+
+    },
+    "Delete local data?" : {
+
+    },
+    "Delete Routine" : {
+
+    },
+    "Delete this %@ workout? This cannot be undone." : {
+      "comment" : "A confirmation dialog message that asks the user to confirm the deletion of a workout. The argument is the name of the exercise in the workout that is about to be deleted.",
+      "isCommentAutoGenerated" : true
+    },
+    "Delete this routine?" : {
+
+    },
+    "Delete Workout" : {
+
+    },
+    "Discard" : {
+
+    },
+    "Discard empty session" : {
+
+    },
+    "Dismiss" : {
+
+    },
+    "Dismisses this training summary" : {
+
+    },
+    "Done" : {
+
+    },
+    "Double tap to continue" : {
+
+    },
+    "Double tap to open" : {
+
+    },
+    "Double tap to open the chest" : {
+
+    },
+    "Dress %@" : {
+
+    },
+    "e.g. 24" : {
+
+    },
+    "e.g. 70" : {
+
+    },
+    "e.g. 100" : {
+
+    },
+    "e.g. 155" : {
+
+    },
+    "e.g. 225" : {
+
+    },
+    "Each attribute is ranked on its own, against standards for a trained body. Every rank is reachable through consistent work." : {
+
+    },
+    "Each finished session is saved as a strength workout. RPGFit never reads your health data." : {
+
+    },
+    "Earned at Level %lld" : {
+
+    },
+    "Edit" : {
+
+    },
+    "Edit Workout" : {
+
+    },
+    "Empty Vault" : {
+
+    },
+    "End this session?" : {
+
+    },
+    "Enter a bodyweight between %lld and %lld %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter a bodyweight between %1$lld and %2$lld %3$@."
+          }
+        }
+      }
+    },
+    "Equip" : {
+
+    },
+    "Equip %@" : {
+
+    },
+    "Equip to %@" : {
+
+    },
+    "Equipment might bonus: plus %lld percent trial damage" : {
+
+    },
+    "Equipped" : {
+
+    },
+    "Everything in RPGFit lives on one of them." : {
+
+    },
+    "Exercise Details" : {
+
+    },
+    "Exercise options" : {
+
+    },
+    "Exercise, %@" : {
+
+    },
+    "Expanded" : {
+
+    },
+    "Experience Gained" : {
+
+    },
+    "Explains attribute rank tiers" : {
+
+    },
+    "Face the Trial" : {
+
+    },
+    "Filter" : {
+
+    },
+    "Filtered" : {
+
+    },
+    "Filters" : {
+
+    },
+    "Filters, active" : {
+
+    },
+    "Finish" : {
+
+    },
+    "Finish a session and save it as a routine to start it here in one tap." : {
+
+    },
+    "Finish Session" : {
+
+    },
+    "Gear sharpens your Trial strikes." : {
+
+    },
+    "Group by" : {
+
+    },
+    "Hatch" : {
+
+    },
+    "Hatch egg, %lld available" : {
+
+    },
+    "iCloud Backup (Beta)" : {
+      "comment" : "A label for the iCloud backup feature.",
+      "isCommentAutoGenerated" : true
+    },
+    "In a superset — rest starts after the group's last exercise" : {
+
+    },
+    "Journey" : {
+
+    },
+    "Journey options" : {
+
+    },
+    "Just the bar" : {
+
+    },
+    "Keep" : {
+
+    },
+    "Keep My Data" : {
+
+    },
+    "Keep Saved Session" : {
+
+    },
+    "Keep training" : {
+
+    },
+    "Last backup: %@" : {
+
+    },
+    "Last updated September 1, 2026" : {
+
+    },
+    "Leave it blank to go back to the species name." : {
+
+    },
+    "Level %lld" : {
+
+    },
+    "Level %lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Level %1$lld %2$@"
+          }
+        }
+      }
+    },
+    "Level %lld → %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Level %1$lld → %2$lld"
+          }
+        }
+      }
+    },
+    "Level %lld, maximum prestige" : {
+
+    },
+    "Level %lld, prestige %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Level %1$lld, prestige %2$lld"
+          }
+        }
+      }
+    },
+    "Level up to earn treasure chests — some hold companion eggs." : {
+
+    },
+    "Level Up!" : {
+
+    },
+    "Light" : {
+      "comment" : "A label indicating a light color scheme.",
+      "isCommentAutoGenerated" : true
+    },
+    "Loaded bar diagram" : {
+
+    },
+    "Log %@ again and the trend lines start drawing themselves." : {
+
+    },
+    "Log %@ of %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log %1$@ of %2$@"
+          }
+        }
+      }
+    },
+    "Log %lld set%@ now" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log %1$lld set%2$@ now"
+          }
+        }
+      }
+    },
+    "Log exercise" : {
+
+    },
+    "Log it" : {
+
+    },
+    "logged" : {
+
+    },
+    "Logs every exercise with completed sets and shows the summary." : {
+
+    },
+    "Logs this exercise now and banks its experience points" : {
+
+    },
+    "Lv %lld" : {
+
+    },
+    "Lv %lld at %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lv %1$lld at %2$@"
+          }
+        }
+      }
+    },
+    "Might" : {
+
+    },
+    "Might +%lld%%" : {
+
+    },
+    "minutes" : {
+
+    },
+    "Name" : {
+
+    },
+    "Name (e.g. Larsen Press)" : {
+
+    },
+    "Name your companion" : {
+
+    },
+    "New 1RM Personal Best!" : {
+
+    },
+    "New Exercise" : {
+
+    },
+    "No prestige" : {
+
+    },
+    "None" : {
+
+    },
+    "Not available in this development build — iCloud backup requires paid Apple Developer signing. It works in the simulator and in App Store builds." : {
+
+    },
+    "Not enough coins" : {
+
+    },
+    "Not entered" : {
+
+    },
+    "Not selected" : {
+
+    },
+    "Not set" : {
+
+    },
+    "Nothing equipped" : {
+
+    },
+    "Nothing has been logged yet." : {
+
+    },
+    "OK" : {
+
+    },
+    "One session a day keeps the fire lit. Miss a day and a freeze covers it; nothing is ever taken from you." : {
+
+    },
+    "Opens class selection" : {
+
+    },
+    "Opens item details" : {
+
+    },
+    "Opens the %@ chart" : {
+
+    },
+    "Opens the campaign map" : {
+
+    },
+    "Opens this exercise's progress chart. Long press to edit or delete." : {
+
+    },
+    "Optional custom name" : {
+
+    },
+    "P%lld" : {
+
+    },
+    "Pause" : {
+
+    },
+    "Pauses the session. Resume it any time from the Train tab." : {
+
+    },
+    "per side" : {
+
+    },
+    "Performance" : {
+
+    },
+    "Personal Records Only" : {
+
+    },
+    "Plate Calculator" : {
+
+    },
+    "Prestige %lld" : {
+
+    },
+    "Prestige: %lld" : {
+
+    },
+    "Privacy Policy" : {
+
+    },
+    "Progress" : {
+
+    },
+    "Progress is earned, never bought.\nNo ads. No RPGFit account. Your log stays on this device unless you choose iCloud backup or export it." : {
+
+    },
+    "Push-up count" : {
+
+    },
+    "Range" : {
+
+    },
+    "Ranks" : {
+
+    },
+    "Rare→Common" : {
+
+    },
+    "Record your training session. For strength: sets × reps × weight. For endurance: duration and/or distance. Weight uses %@." : {
+
+    },
+    "Region cleared" : {
+
+    },
+    "Region locked" : {
+
+    },
+    "Remove" : {
+
+    },
+    "Remove exercise" : {
+
+    },
+    "Removes this item from your satchel after confirmation" : {
+
+    },
+    "Rename" : {
+
+    },
+    "Rename %@" : {
+
+    },
+    "Rename routine" : {
+
+    },
+    "Replace saved session?" : {
+
+    },
+    "REPS" : {
+
+    },
+    "Reps: %lld" : {
+
+    },
+    "Reserve full" : {
+
+    },
+    "Reset all data?" : {
+
+    },
+    "Rest timer" : {
+
+    },
+    "Rest: %lld seconds remaining" : {
+
+    },
+    "Resting" : {
+
+    },
+    "Restore" : {
+
+    },
+    "Restore Backup" : {
+
+    },
+    "Restore from iCloud?" : {
+
+    },
+    "Restore…" : {
+
+    },
+    "Resume session, %lld exercises in progress" : {
+
+    },
+    "Retry Save" : {
+
+    },
+    "Routine name" : {
+
+    },
+    "Routine options for %@" : {
+
+    },
+    "RPE (effort)" : {
+
+    },
+    "RPE %@" : {
+
+    },
+    "RPGFit" : {
+
+    },
+    "Run distance in %@" : {
+
+    },
+    "Run duration in minutes" : {
+
+    },
+    "Satchel" : {
+
+    },
+    "Satchel, %lld unopened chests" : {
+
+    },
+    "Save" : {
+
+    },
+    "Save & Exit" : {
+
+    },
+    "Save as routine" : {
+
+    },
+    "Save as Routine" : {
+
+    },
+    "Save Workouts to Health" : {
+
+    },
+    "Search exercises" : {
+
+    },
+    "Search workouts or exercises" : {
+
+    },
+    "Selected" : {
+
+    },
+    "Session" : {
+
+    },
+    "Session Complete" : {
+
+    },
+    "Session complete: %lld exercises, %lld sets, %lld experience points.%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Session complete: %1$lld exercises, %2$lld sets, %3$lld experience points.%4$@"
+          }
+        }
+      }
+    },
+    "Session in progress. Approximately %lld experience points banked." : {
+
+    },
+    "SET" : {
+
+    },
+    "Set %lld complete. Double tap to uncheck." : {
+
+    },
+    "Set your bodyweight in Settings to get accurate scaling." : {
+
+    },
+    "Settings" : {
+
+    },
+    "Setup Required" : {
+
+    },
+    "Shop" : {
+
+    },
+    "Show %lld hidden by your equipment settings" : {
+
+    },
+    "Showing %lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Showing %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Shown everywhere this exercise appears." : {
+
+    },
+    "Skip" : {
+
+    },
+    "Skip rest" : {
+
+    },
+    "Something stirs…" : {
+
+    },
+    "Start %lld-second rest timer" : {
+
+    },
+    "Start a new session instead" : {
+
+    },
+    "Start New Session" : {
+
+    },
+    "Starts a session from this routine." : {
+
+    },
+    "Step %lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Step %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Stop" : {
+
+    },
+    "Streak" : {
+
+    },
+    "Swap Exercise" : {
+
+    },
+    "Tap a workout for its chart. Long-press to edit or delete." : {
+
+    },
+    "Tap an item to equip it. Long-press to discard." : {
+
+    },
+    "Tap anywhere to continue" : {
+
+    },
+    "Tap the chest to open it" : {
+
+    },
+    "Target barbell weight" : {
+
+    },
+    "Target must be at least the bar (%@ %@)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Target must be at least the bar (%1$@ %2$@)."
+          }
+        }
+      }
+    },
+    "Tell us your bodyweight to get started" : {
+
+    },
+    "The exercise picker hides movements that need gear you don't have. Bodyweight and outdoor training always show." : {
+
+    },
+    "The road is clear. Take your spoils." : {
+
+    },
+    "The Trial: %@, %@. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Trial: %1$@, %2$@. %3$@"
+          }
+        }
+      }
+    },
+    "This cannot be undone." : {
+
+    },
+    "This permanently deletes the RPGFit backup in your private iCloud. Data on this device is not changed." : {
+
+    },
+    "This permanently deletes workouts, progress, and settings from this device. Any iCloud backup remains until you delete it separately." : {
+
+    },
+    "This replaces everything on this device with your last iCloud backup." : {
+
+    },
+    "Three Roads" : {
+
+    },
+    "Today's exercises and sets become a template on the Train tab." : {
+
+    },
+    "Train" : {
+
+    },
+    "Train to build might — every logged set strikes." : {
+
+    },
+    "Training Session" : {
+
+    },
+    "Transform your fitness into an epic adventure" : {
+
+    },
+    "Trial resolved: %@ defeated. Spoils: %lld coins%@%@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Trial resolved: %1$@ defeated. Spoils: %2$lld coins%3$@%4$@."
+          }
+        }
+      }
+    },
+    "Type" : {
+
+    },
+    "Unequip" : {
+
+    },
+    "Unequip %@" : {
+
+    },
+    "Units" : {
+
+    },
+    "Use" : {
+
+    },
+    "Use last session's numbers" : {
+
+    },
+    "Version %@ (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "View Progress" : {
+
+    },
+    "W" : {
+
+    },
+    "Wearing: %@" : {
+
+    },
+    "WEIGHT (%@)" : {
+
+    },
+    "Weight lifted, %@" : {
+
+    },
+    "Weight must be between %@" : {
+
+    },
+    "Welcome to" : {
+
+    },
+    "What lies past the Crown of Dawn is spoken of only by those who cleared it." : {
+
+    },
+    "Workout name" : {
+
+    },
+    "Workout options" : {
+
+    },
+    "XP" : {
+
+    },
+    "XP scales with how hard the session was for you (reps × weight, pace, time). Beat your baseline and you'll see bigger gains; easy or off days still give a little progress." : {
+
+    },
+    "Yesterday's Chronicle" : {
+
+    },
+    "You already hold three freezes" : {
+
+    },
+    "You have" : {
+
+    },
+    "You've met before — it brought 45 coins." : {
+
+    },
+    "Your Class" : {
+
+    },
+    "Your class determines the types of quests you'll receive" : {
+
+    },
+    "Your Exercises" : {
+
+    },
+    "Your Fitness Adventure Begins" : {
+
+    },
+    "Your logged sessions are untouched — only the template goes." : {
+
+    },
+    "Your session in progress will be discarded. You can resume it instead from the Train tab." : {
+
+    },
+    "Your training history and character will be erased from this device. Your optional iCloud backup is not deleted." : {
+
+    },
+    "Your training strikes true." : {
+
+    }
+  },
+  "version" : "1.1"
+}

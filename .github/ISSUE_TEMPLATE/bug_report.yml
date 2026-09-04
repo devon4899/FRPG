@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a reproducible problem in RPGFit
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve RPGFit. Do not include real workout exports, Health data, iCloud records, or other personal information.
+  - type: input
+    id: version
+    attributes:
+      label: App version or commit
+      placeholder: "1.0 (1) or commit SHA"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device and OS
+      placeholder: "iPhone 16 Pro simulator, iOS 18.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature area
+      options:
+        - Onboarding or Ledgerstone
+        - Workout logging or rest timer
+        - History, records, or charts
+        - Quests, campaign, or Trial
+        - Equipment or companions
+        - Save, restore, or export
+        - Widget or Live Activity
+        - Accessibility or layout
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Start from a clean or clearly described state and list each action.
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. Observe …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add redacted screenshots or logs if they help reproduce the issue.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I removed personal fitness, Health, iCloud, and signing data.
+          required: true

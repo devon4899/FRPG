@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/devon4899/FRPG/security/advisories/new
+    about: Report vulnerabilities or privacy issues without exposing sensitive details.
+  - name: RPGFit support
+    url: https://devon4899.github.io/rpgfit-site/support.html
+    about: Get help with using the app.

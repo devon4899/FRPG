@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Debug-on-device entitlements for personal (free) team signing, which
+	     cannot provision iCloud. Simulator and Release keep the full set in
+	     RPGFitMVP.entitlements; CloudBackupManager.entitlementPresent gates
+	     the backup UI so the reduced build degrades honestly. -->
+	<key>com.apple.developer.healthkit</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.devoncheng.RPGFitMVP</string>
+	</array>
+</dict>
+</plist>

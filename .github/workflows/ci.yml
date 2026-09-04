@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-unit-test:
+    name: Build and unit test
+    runs-on: macos-15
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode 26.3
+        run: sudo xcode-select -s /Applications/Xcode_26.3.app/Contents/Developer
+
+      - name: Show toolchain
+        run: xcodebuild -version
+
+      - name: Run unit suite
+        run: |
+          xcodebuild test \
+            -project RPGFitMVP.xcodeproj \
+            -scheme RPGFitMVP \
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.6' \
+            -derivedDataPath "$RUNNER_TEMP/RPGFitDerivedData" \
+            -only-testing:RPGFitMVPTests \
+            CODE_SIGNING_ALLOWED=NO
