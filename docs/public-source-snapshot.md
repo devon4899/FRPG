@@ -126,7 +126,7 @@ for every push and pull request.
 | `docs/` | Architecture notes, design references, release checklist, and screenshots |
 
 See [`docs/ARCHITECTURE.md`](ARCHITECTURE.md) for the data flow and module
-boundaries, and [`CONTRIBUTING.md`](CONTRIBUTING.md) before proposing a change.
+boundaries, and [`CONTRIBUTING.md`](../CONTRIBUTING.md) before proposing a change.
 
 ## Privacy
 
@@ -138,7 +138,7 @@ app's current policy is also available at the
 
 ## Status and licensing
 
-RPGFit is pre-release software. See [`CHANGELOG.md`](CHANGELOG.md) for the
+RPGFit is pre-release software. See [`CHANGELOG.md`](../CHANGELOG.md) for the
 current development milestone and [`docs/appstore-submission.md`](appstore-submission.md)
 for the remaining release gates.
 
