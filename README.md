@@ -1,87 +1,59 @@
-# RPGFit
+# FRPG / Liftling
 
-> Your training is the game.
+> Lift real weights. Raise a creature.
 
-[![CI](https://github.com/devon4899/FRPG/actions/workflows/ci.yml/badge.svg)](https://github.com/devon4899/FRPG/actions/workflows/ci.yml)
 ![Swift](https://img.shields.io/badge/Swift-5-orange.svg)
-![Platform](https://img.shields.io/badge/platform-iOS%20%26%20iPadOS%2018.5%2B-111827.svg)
+![Current target](https://img.shields.io/badge/current%20target-iPhone%20%C2%B7%20iOS%2018.5%2B-111827.svg)
 ![Dependencies](https://img.shields.io/badge/third--party%20dependencies-none-1f6f5c.svg)
 
-RPGFit is a private-first workout tracker for iPhone and iPad that turns real
-training into an RPG progression loop. It combines a detailed workout log with
-classes, attributes, quests, boss encounters, companions, equipment, and
-rewards—without ads, accounts, paid progression, or analytics.
+**Liftling** is the current name of FRPG (formerly RPGFit): a local-first native
+iPhone workout tracker where a pixel creature grows through real training.
+The pre-release app centers on one creature, a weekly training rhythm, and a clear
+next session. No account, ads, analytics, or paid progression are required.
 
-The project is under active development toward its first public release. The
-complete app, widget extension, test suites, privacy manifest, and App Store
-assets live in this repository.
+**Updated November 12, 2026.** The images below show the current development app.
+The source in this public repository remains the September 2026 RPGFit snapshot;
+current development source is maintained separately. The original snapshot's
+[feature list and run instructions](docs/public-source-snapshot.md) are preserved.
+
+## Actual app screenshots
 
 <p align="center">
-  <img src="docs/screenshots/iphone-6.9/01-skills.png" width="18%" alt="RPGFit character sheet">
-  <img src="docs/screenshots/iphone-6.9/02-session.png" width="18%" alt="RPGFit active training session">
-  <img src="docs/screenshots/iphone-6.9/03-campaign.png" width="18%" alt="RPGFit campaign map">
-  <img src="docs/screenshots/iphone-6.9/04-charts.png" width="18%" alt="RPGFit exercise progress chart">
-  <img src="docs/screenshots/iphone-6.9/05-inventory.png" width="18%" alt="RPGFit equipment inventory">
+  <img src="docs/screenshots/current/01-character.png" width="30%" alt="Liftling creature home and next training session">
+  <img src="docs/screenshots/current/04-train.png" width="30%" alt="Liftling training screen with weekly rhythm and routines">
+  <img src="docs/screenshots/current/03-journey.png" width="30%" alt="Liftling Journey and training-powered boss progression">
 </p>
 
-The matching 13-inch iPad set is available in
-[`docs/screenshots/ipad-13`](docs/screenshots/ipad-13).
+These are actual captures of the running app on an iPhone 17 Pro / iOS 26.2
+simulator, using a disposable profile and deterministic sample workout data.
+See the [full six-screen gallery and verification notes](docs/current-development.md).
 
-## What RPGFit includes
+## What Liftling does today
 
-### Training that stands on its own
+- **Creature-led onboarding:** choose and name Ember, Sprout, Droplet, or Puff;
+  select a training goal, experience level, equipment, and weekly aim.
+- **A fast workout log:** per-set weight and reps, warm-ups, previous-set values,
+  reusable routines, exercise guidance, pause/resume, and an automatic rest timer.
+- **A weekly rhythm:** training days build toward a chosen weekly aim, with
+  planned days, pause weeks, and a gentle return after a break.
+- **Progress tied to real work:** training earns XP, attendance chests,
+  equipment, and progress along a twelve-boss Path across four regions.
+- **A useful training record:** session history, personal records, estimated
+  one-rep-max and volume charts, kilogram/pound units, and CSV export.
+- **Native Apple integration:** SwiftUI, Charts, WidgetKit, ActivityKit,
+  optional HealthKit workout export, and manual CloudKit backup.
+- **Local-first storage:** no account or tracking; export, backup, and Health
+  access are explicit choices. The 1.0 target is iPhone in portrait orientation.
 
-- Guided sessions with per-set weight and reps, warm-up sets, RPE, pause and
-  resume, supersets, automatic rest timing, and recoverable in-progress drafts.
-- Quick logging, reusable routines, repeat-last-workout, custom exercises,
-  equipment-aware exercise filtering, and a plate calculator.
-- Session history with safe editing and deletion, estimated one-rep-max and
-  volume charts, personal-record timelines, weekly balance, and CSV export.
-- Kilogram and pound support throughout the logging and display pipeline.
+The app remains in development. Older RPGFit systems such as classes, coins,
+familiars, and expeditions are hidden in the current 1.0 interface while existing
+data is retained. These screenshots do not announce an App Store release.
 
-### Progression earned through training
+## Run the public source snapshot
 
-- A Ledgerstone placement rite, fitness classes, six character attributes,
-  ranks, levels, and prestige.
-- Adaptive daily and weekly quests, training streaks, campaign regions, and a
-  replay-safe Trial boss ladder.
-- Treasure chests, rarity-based equipment, loadout bonuses, companions,
-  evolutions, bonds, accessories, and an earn-only coin economy.
-- Reward accounting designed so editing or deleting a workout cannot duplicate
-  or silently erase previously spent progression.
-
-### Native Apple-platform features
-
-- A home-screen adventure widget and an ActivityKit rest-timer Live Activity.
-- Optional, write-only Apple Health workout export.
-- Manual backup and restore through the user's private CloudKit database.
-- A bundled privacy manifest, Dynamic Type-aware layouts, VoiceOver labels,
-  iPhone and iPad support, and no third-party SDKs.
-
-## Product principles
-
-1. **Training is the source of truth.** Game rewards come from completed work,
-   never purchases.
-2. **The log must be useful without the game.** Detailed sets, routines,
-   charts, history, and exports are first-class features.
-3. **Local first means local first.** Data stays on the device unless the user
-   explicitly exports it or requests an iCloud backup.
-4. **Failure must be recoverable.** Saves are validated, versioned, backed up,
-   migrated, and surfaced to the user when recovery is required.
-
-## Requirements
-
-- macOS with Xcode 26.3 or newer
-- iOS or iPadOS 18.5 or newer
-- An Apple Developer account only when running on a physical device or using
-  owner-specific services such as app groups, HealthKit, and CloudKit
-
-The app uses only Apple frameworks, including SwiftUI, Charts, ActivityKit,
-WidgetKit, HealthKit, CloudKit, and UserNotifications. There are no package
-dependencies to install. The project currently builds with Swift 5 language
-mode and is verified against Xcode 26.3.
-
-## Run the app
+The checked-in September source supports iPhone and iPad on iOS/iPadOS 18.5+.
+It uses Swift 5 language mode and Apple frameworks, with no package dependencies.
+Open `RPGFitMVP.xcodeproj` with Xcode 26.3 and select the `RPGFitMVP` scheme.
 
 ```bash
 git clone https://github.com/devon4899/FRPG.git
@@ -89,62 +61,20 @@ cd FRPG
 open RPGFitMVP.xcodeproj
 ```
 
-In Xcode, select the shared `RPGFitMVP` scheme and an iOS 18.5+ simulator, then
-Run.
+Simulator builds do not need provisioning. For physical devices, choose your own
+development team and replace the bundle, app-group, and iCloud container
+identifiers with identifiers that team owns. See the
+[snapshot documentation](docs/public-source-snapshot.md) for test commands,
+architecture, and the original feature list.
 
-Simulator builds do not need provisioning. For a physical device, choose your
-own development team and replace the bundle, app-group, and iCloud container
-identifiers with identifiers owned by that team. The checked-in identifiers
-belong to the production RPGFit app and will not be provisionable by another
-developer account.
+## Privacy, support, and license
 
-## Test
+Workout and creature data stay local unless the user explicitly exports it,
+requests a backup, or enables optional Health access. See the
+[privacy policy](https://devon4899.github.io/rpgfit-site/privacy.html) and
+[support page](https://devon4899.github.io/rpgfit-site/support.html).
 
-Run the unit suite from Xcode with **Product → Test**, or from the command line:
-
-```bash
-xcodebuild test \
-  -project RPGFitMVP.xcodeproj \
-  -scheme RPGFitMVP \
-  -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.6' \
-  -only-testing:RPGFitMVPTests \
-  CODE_SIGNING_ALLOWED=NO
-```
-
-The repository also includes launch smoke tests and a deterministic UI harness
-that produces the checked-in App Store screenshots. CI runs the full unit suite
-for every push and pull request.
-
-## Project map
-
-| Path | Responsibility |
-|---|---|
-| `RPGFitMVP/` | App views, workout and game domain models, persistence, integrations, and design system |
-| `RPGFitWidgets/` | Home-screen widget and Live Activity presentation |
-| `RPGFitMVPTests/` | Swift Testing coverage for workout, progression, migration, and safety invariants |
-| `RPGFitMVPUITests/` | Launch checks and deterministic screenshot journeys |
-| `docs/` | Architecture notes, design references, release checklist, and screenshots |
-
-See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the data flow and module
-boundaries, and [`CONTRIBUTING.md`](CONTRIBUTING.md) before proposing a change.
-
-## Privacy
-
-RPGFit has no account system, ads, analytics, or tracking. Workout and character
-data are stored locally by default. Apple Health export is optional and
-write-only; CloudKit backup is manual and uses the user's private database. The
-app's current policy is also available at the
-[RPGFit privacy page](https://devon4899.github.io/rpgfit-site/privacy.html).
-
-## Status and licensing
-
-RPGFit is pre-release software. See [`CHANGELOG.md`](CHANGELOG.md) for the
-current development milestone and [`docs/appstore-submission.md`](docs/appstore-submission.md)
-for the remaining release gates.
-
-This repository does not currently grant an open-source license. The source is
-public for review and collaboration, but reuse and redistribution require the
-copyright holder's permission unless a license is added later.
-
-For support, use the [RPGFit support page](https://devon4899.github.io/rpgfit-site/support.html)
-or open a reproducible bug report.
+This repository does not grant an open-source license. Source is public for
+review; reuse and redistribution require the copyright holder's permission
+unless a license is added later. Read [CONTRIBUTING.md](CONTRIBUTING.md) and
+[SECURITY.md](SECURITY.md) before contributing or reporting a security issue.
